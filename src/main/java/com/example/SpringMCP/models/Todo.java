@@ -2,12 +2,16 @@ package com.example.SpringMCP.models;
 
 import java.time.LocalDateTime;
 
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import java.util.UUID;
 
 @Getter
 @Setter
+@Builder
+@AllArgsConstructor
 public class Todo {
   
   public enum Status {
